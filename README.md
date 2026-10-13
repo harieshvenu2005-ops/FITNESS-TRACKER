@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # HealthTracker Pro
 
 A world-class comprehensive full-stack fitness and health tracking application with synchronized dashboards for monitoring fitness activities, diet & nutrition, and healthcare metrics. Features advanced analytics, telemedicine capabilities, medication tracking, doctor communication, AI-powered insights, and complete data management. **All data is persisted in browser localStorage with optional backend synchronization for a complete full-stack experience.**
@@ -460,3 +461,6 @@ like `concurrently`.
 ---
 
 **Built with ❤️ using React, TypeScript, Tailwind CSS, and LocalStorage**
+=======
+# FITNESS-TRACKER
+>>>>>>> b8106ac97fbd5c9c8cc1c904437e8d937ab5ef23
