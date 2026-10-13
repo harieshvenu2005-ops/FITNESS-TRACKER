@@ -1,0 +1,972 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Administrator",
+      "email": "admin@example.com",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Hariesh",
+      "email": "hariesh@example.com",
+      "password": "password123",
+      "role": "user"
+    },
+    {
+      "id": "10c4c6a4-597e-4f53-9212-95c814a8e524",
+      "name": "RONALDO",
+      "email": "ronaldo@example.com",
+      "password": "ronaldo",
+      "role": "user"
+    }
+  ],
+  "healthEntries": [
+    {
+      "id": "28b6207e-aba4-4344-8540-0787a0ed1123",
+      "userId": "1",
+      "type": "workout",
+      "value": 100,
+      "date": "2026-03-09",
+      "time": "2026-03-09T00:00"
+    },
+    {
+      "id": "f4b56dba-5a00-4f81-9b5b-9136b2526199",
+      "userId": "1",
+      "type": "heart_rate",
+      "value": 69,
+      "date": "2026-03-09",
+      "time": "19:12"
+    },
+    {
+      "id": "f9360279-9433-4224-89bd-62e57f53261e",
+      "userId": "1",
+      "type": "heart_rate",
+      "value": 73,
+      "date": "2026-03-09",
+      "time": "19:12"
+    },
+    {
+      "id": "b8a11c7e-204a-4d7f-951a-a60144ca6859",
+      "userId": "1",
+      "type": "heart_rate",
+      "value": 68,
+      "date": "2026-03-09",
+      "time": "19:13"
+    },
+    {
+      "id": "fe38a79e-93a2-49f8-867b-1fab90a88e70",
+      "userId": "1",
+      "type": "heart_rate",
+      "value": 78,
+      "date": "2026-03-09",
+      "time": "19:13"
+    },
+    {
+      "id": "c56fa3c9-dae2-43e6-b218-9a4b0b42377b",
+      "userId": "1",
+      "type": "weight",
+      "value": 75,
+      "date": "2026-03-09",
+      "time": "19:13"
+    },
+    {
+      "id": "06f18c18-4728-4c53-b230-f85cb9bc174b",
+      "userId": "1",
+      "type": "workout",
+      "value": 10,
+      "date": "2026-03-09",
+      "time": "2026-03-09T00:00"
+    },
+    {
+      "id": "06f18c18-4728-4c53-b230-f85cb9bc174b",
+      "userId": "1",
+      "type": "workout",
+      "value": 10,
+      "date": "2026-03-09",
+      "time": "2026-03-09T00:00"
+    },
+    {
+      "id": "f76d51f6-f541-4e51-bbe1-2055d0ebd5fc",
+      "userId": "1",
+      "type": "workout",
+      "value": 50,
+      "date": "2026-03-09",
+      "time": "2026-03-09T00:00"
+    },
+    {
+      "id": "w1",
+      "userId": "2",
+      "type": "workout",
+      "value": 45,
+      "date": "2026-03-03",
+      "time": "2026-03-03T07:00"
+    },
+    {
+      "id": "w2",
+      "userId": "2",
+      "type": "workout",
+      "value": 60,
+      "date": "2026-03-04",
+      "time": "2026-03-04T18:30"
+    },
+    {
+      "id": "w3",
+      "userId": "2",
+      "type": "workout",
+      "value": 30,
+      "date": "2026-03-05",
+      "time": "2026-03-05T12:00"
+    },
+    {
+      "id": "w4",
+      "userId": "2",
+      "type": "workout",
+      "value": 75,
+      "date": "2026-03-06",
+      "time": "2026-03-06T08:00"
+    },
+    {
+      "id": "w5",
+      "userId": "2",
+      "type": "workout",
+      "value": 50,
+      "date": "2026-03-07",
+      "time": "2026-03-07T19:00"
+    },
+    {
+      "id": "w6",
+      "userId": "2",
+      "type": "workout",
+      "value": 40,
+      "date": "2026-03-08",
+      "time": "2026-03-08T16:00"
+    },
+    {
+      "id": "w7",
+      "userId": "2",
+      "type": "workout",
+      "value": 55,
+      "date": "2026-03-09",
+      "time": "2026-03-09T07:30"
+    },
+    {
+      "id": "m1",
+      "userId": "2",
+      "type": "meal",
+      "value": 450,
+      "date": "2026-03-03",
+      "time": "08:00"
+    },
+    {
+      "id": "m2",
+      "userId": "2",
+      "type": "meal",
+      "value": 650,
+      "date": "2026-03-03",
+      "time": "13:00"
+    },
+    {
+      "id": "m3",
+      "userId": "2",
+      "type": "meal",
+      "value": 550,
+      "date": "2026-03-03",
+      "time": "19:00"
+    },
+    {
+      "id": "m4",
+      "userId": "2",
+      "type": "meal",
+      "value": 400,
+      "date": "2026-03-04",
+      "time": "08:00"
+    },
+    {
+      "id": "m5",
+      "userId": "2",
+      "type": "meal",
+      "value": 700,
+      "date": "2026-03-04",
+      "time": "13:00"
+    },
+    {
+      "id": "m6",
+      "userId": "2",
+      "type": "meal",
+      "value": 600,
+      "date": "2026-03-04",
+      "time": "19:00"
+    },
+    {
+      "id": "m7",
+      "userId": "2",
+      "type": "meal",
+      "value": 350,
+      "date": "2026-03-05",
+      "time": "08:00"
+    },
+    {
+      "id": "m8",
+      "userId": "2",
+      "type": "meal",
+      "value": 500,
+      "date": "2026-03-05",
+      "time": "13:00"
+    },
+    {
+      "id": "m9",
+      "userId": "2",
+      "type": "meal",
+      "value": 450,
+      "date": "2026-03-05",
+      "time": "19:00"
+    },
+    {
+      "id": "m10",
+      "userId": "2",
+      "type": "meal",
+      "value": 400,
+      "date": "2026-03-06",
+      "time": "08:00"
+    },
+    {
+      "id": "m11",
+      "userId": "2",
+      "type": "meal",
+      "value": 550,
+      "date": "2026-03-06",
+      "time": "13:00"
+    },
+    {
+      "id": "m12",
+      "userId": "2",
+      "type": "meal",
+      "value": 500,
+      "date": "2026-03-06",
+      "time": "19:00"
+    },
+    {
+      "id": "m13",
+      "userId": "2",
+      "type": "meal",
+      "value": 375,
+      "date": "2026-03-07",
+      "time": "08:00"
+    },
+    {
+      "id": "m14",
+      "userId": "2",
+      "type": "meal",
+      "value": 625,
+      "date": "2026-03-07",
+      "time": "13:00"
+    },
+    {
+      "id": "m15",
+      "userId": "2",
+      "type": "meal",
+      "value": 475,
+      "date": "2026-03-07",
+      "time": "19:00"
+    },
+    {
+      "id": "m16",
+      "userId": "2",
+      "type": "meal",
+      "value": 425,
+      "date": "2026-03-08",
+      "time": "08:00"
+    },
+    {
+      "id": "m17",
+      "userId": "2",
+      "type": "meal",
+      "value": 575,
+      "date": "2026-03-08",
+      "time": "13:00"
+    },
+    {
+      "id": "m18",
+      "userId": "2",
+      "type": "meal",
+      "value": 525,
+      "date": "2026-03-08",
+      "time": "19:00"
+    },
+    {
+      "id": "m19",
+      "userId": "2",
+      "type": "meal",
+      "value": 350,
+      "date": "2026-03-09",
+      "time": "08:00"
+    },
+    {
+      "id": "m20",
+      "userId": "2",
+      "type": "meal",
+      "value": 600,
+      "date": "2026-03-09",
+      "time": "13:00"
+    },
+    {
+      "id": "m21",
+      "userId": "2",
+      "type": "meal",
+      "value": 550,
+      "date": "2026-03-09",
+      "time": "19:00"
+    },
+    {
+      "id": "hr1",
+      "userId": "2",
+      "type": "heart_rate",
+      "value": 72,
+      "date": "2026-03-03",
+      "time": "07:00"
+    },
+    {
+      "id": "hr2",
+      "userId": "2",
+      "type": "heart_rate",
+      "value": 85,
+      "date": "2026-03-03",
+      "time": "19:00"
+    },
+    {
+      "id": "hr3",
+      "userId": "2",
+      "type": "heart_rate",
+      "value": 68,
+      "date": "2026-03-04",
+      "time": "07:00"
+    },
+    {
+      "id": "hr4",
+      "userId": "2",
+      "type": "heart_rate",
+      "value": 78,
+      "date": "2026-03-04",
+      "time": "19:00"
+    },
+    {
+      "id": "hr5",
+      "userId": "2",
+      "type": "heart_rate",
+      "value": 70,
+      "date": "2026-03-05",
+      "time": "07:00"
+    },
+    {
+      "id": "hr6",
+      "userId": "2",
+      "type": "heart_rate",
+      "value": 82,
+      "date": "2026-03-05",
+      "time": "19:00"
+    },
+    {
+      "id": "hr7",
+      "userId": "2",
+      "type": "heart_rate",
+      "value": 69,
+      "date": "2026-03-06",
+      "time": "07:00"
+    },
+    {
+      "id": "hr8",
+      "userId": "2",
+      "type": "heart_rate",
+      "value": 76,
+      "date": "2026-03-06",
+      "time": "19:00"
+    },
+    {
+      "id": "hr9",
+      "userId": "2",
+      "type": "heart_rate",
+      "value": 71,
+      "date": "2026-03-07",
+      "time": "07:00"
+    },
+    {
+      "id": "hr10",
+      "userId": "2",
+      "type": "heart_rate",
+      "value": 79,
+      "date": "2026-03-07",
+      "time": "19:00"
+    },
+    {
+      "id": "hr11",
+      "userId": "2",
+      "type": "heart_rate",
+      "value": 73,
+      "date": "2026-03-08",
+      "time": "07:00"
+    },
+    {
+      "id": "hr12",
+      "userId": "2",
+      "type": "heart_rate",
+      "value": 81,
+      "date": "2026-03-08",
+      "time": "19:00"
+    },
+    {
+      "id": "hr13",
+      "userId": "2",
+      "type": "heart_rate",
+      "value": 67,
+      "date": "2026-03-09",
+      "time": "07:00"
+    },
+    {
+      "id": "hr14",
+      "userId": "2",
+      "type": "heart_rate",
+      "value": 74,
+      "date": "2026-03-09",
+      "time": "19:00"
+    },
+    {
+      "id": "bp1",
+      "userId": "2",
+      "type": "blood_pressure",
+      "value": "120/80",
+      "date": "2026-03-03",
+      "time": "08:00"
+    },
+    {
+      "id": "bp2",
+      "userId": "2",
+      "type": "blood_pressure",
+      "value": "118/78",
+      "date": "2026-03-04",
+      "time": "08:00"
+    },
+    {
+      "id": "bp3",
+      "userId": "2",
+      "type": "blood_pressure",
+      "value": "122/82",
+      "date": "2026-03-05",
+      "time": "08:00"
+    },
+    {
+      "id": "bp4",
+      "userId": "2",
+      "type": "blood_pressure",
+      "value": "119/79",
+      "date": "2026-03-06",
+      "time": "08:00"
+    },
+    {
+      "id": "bp5",
+      "userId": "2",
+      "type": "blood_pressure",
+      "value": "121/81",
+      "date": "2026-03-07",
+      "time": "08:00"
+    },
+    {
+      "id": "bp6",
+      "userId": "2",
+      "type": "blood_pressure",
+      "value": "117/77",
+      "date": "2026-03-08",
+      "time": "08:00"
+    },
+    {
+      "id": "bp7",
+      "userId": "2",
+      "type": "blood_pressure",
+      "value": "120/80",
+      "date": "2026-03-09",
+      "time": "08:00"
+    },
+    {
+      "id": "wt1",
+      "userId": "2",
+      "type": "weight",
+      "value": 75.2,
+      "date": "2026-03-03",
+      "time": "08:00"
+    },
+    {
+      "id": "wt2",
+      "userId": "2",
+      "type": "weight",
+      "value": 74.8,
+      "date": "2026-03-04",
+      "time": "08:00"
+    },
+    {
+      "id": "wt3",
+      "userId": "2",
+      "type": "weight",
+      "value": 74.5,
+      "date": "2026-03-05",
+      "time": "08:00"
+    },
+    {
+      "id": "wt4",
+      "userId": "2",
+      "type": "weight",
+      "value": 74.2,
+      "date": "2026-03-06",
+      "time": "08:00"
+    },
+    {
+      "id": "wt5",
+      "userId": "2",
+      "type": "weight",
+      "value": 73.9,
+      "date": "2026-03-07",
+      "time": "08:00"
+    },
+    {
+      "id": "wt6",
+      "userId": "2",
+      "type": "weight",
+      "value": 73.7,
+      "date": "2026-03-08",
+      "time": "08:00"
+    },
+    {
+      "id": "wt7",
+      "userId": "2",
+      "type": "weight",
+      "value": 73.4,
+      "date": "2026-03-09",
+      "time": "08:00"
+    },
+    {
+      "id": "sl1",
+      "userId": "2",
+      "type": "sleep",
+      "value": 7.5,
+      "date": "2026-03-03",
+      "time": "07:00"
+    },
+    {
+      "id": "sl2",
+      "userId": "2",
+      "type": "sleep",
+      "value": 8,
+      "date": "2026-03-04",
+      "time": "07:00"
+    },
+    {
+      "id": "sl3",
+      "userId": "2",
+      "type": "sleep",
+      "value": 6.5,
+      "date": "2026-03-05",
+      "time": "07:00"
+    },
+    {
+      "id": "sl4",
+      "userId": "2",
+      "type": "sleep",
+      "value": 7.8,
+      "date": "2026-03-06",
+      "time": "07:00"
+    },
+    {
+      "id": "sl5",
+      "userId": "2",
+      "type": "sleep",
+      "value": 7.2,
+      "date": "2026-03-07",
+      "time": "07:00"
+    },
+    {
+      "id": "sl6",
+      "userId": "2",
+      "type": "sleep",
+      "value": 8.2,
+      "date": "2026-03-08",
+      "time": "07:00"
+    },
+    {
+      "id": "sl7",
+      "userId": "2",
+      "type": "sleep",
+      "value": 7,
+      "date": "2026-03-09",
+      "time": "07:00"
+    },
+    {
+      "id": "6409835b-3fdf-4d16-b7e0-93e8f6e8e04f",
+      "userId": "10c4c6a4-597e-4f53-9212-95c814a8e524",
+      "type": "workout",
+      "value": 21,
+      "date": "2026-03-09",
+      "time": "2026-03-09T00:00"
+    },
+    {
+      "id": "c7e7aaf0-745d-431c-8b9e-f9ddfb5f3af3",
+      "userId": "10c4c6a4-597e-4f53-9212-95c814a8e524",
+      "type": "heart_rate",
+      "value": 234,
+      "date": "2026-03-09",
+      "time": "20:13"
+    },
+    {
+      "id": "61425e0f-ed5a-4279-a124-eb0a2acdf901",
+      "userId": "10c4c6a4-597e-4f53-9212-95c814a8e524",
+      "type": "heart_rate",
+      "value": 341,
+      "date": "2026-03-09",
+      "time": "20:13"
+    },
+    {
+      "id": "7418797e-a663-4cd3-baab-d26383458305",
+      "userId": "10c4c6a4-597e-4f53-9212-95c814a8e524",
+      "type": "blood_pressure",
+      "value": "3124/324",
+      "date": "2026-03-09",
+      "time": "20:14"
+    },
+    {
+      "id": "94e0d621-56fc-4684-8fee-d3092fd47355",
+      "userId": "10c4c6a4-597e-4f53-9212-95c814a8e524",
+      "type": "blood_pressure",
+      "value": "342 /342",
+      "date": "2026-03-09",
+      "time": "20:14"
+    },
+    {
+      "id": "520620b7-2263-42b1-91dc-35703dd6ca0e",
+      "userId": "10c4c6a4-597e-4f53-9212-95c814a8e524",
+      "type": "blood_pressure",
+      "value": "342/2342",
+      "date": "2026-03-09",
+      "time": "20:14"
+    },
+    {
+      "id": "67f1791a-dbef-419e-945a-d6f544f5b73e",
+      "userId": "10c4c6a4-597e-4f53-9212-95c814a8e524",
+      "type": "workout",
+      "value": 30,
+      "date": "2026-03-10",
+      "time": "2026-03-10T00:00"
+    },
+    {
+      "id": "91134dae-3a0f-46b3-b960-803f301f836f",
+      "userId": "1",
+      "type": "workout",
+      "value": 20,
+      "date": "2026-03-11",
+      "time": "2026-03-11T00:00"
+    },
+    {
+      "id": "eb9df886-76ef-4388-b90d-b6522ff300a8",
+      "userId": "1",
+      "type": "workout",
+      "value": 34,
+      "date": "2026-03-25",
+      "time": "2026-03-25T00:00"
+    },
+    {
+      "id": "97387710-a275-4d0c-b7cb-4ab1d44f739a",
+      "userId": "10c4c6a4-597e-4f53-9212-95c814a8e524",
+      "type": "weight",
+      "value": 75,
+      "date": "2026-03-11",
+      "time": "09:29"
+    },
+    {
+      "id": "ac37494e-edbf-43fb-a619-8488f091f0bb",
+      "userId": "10c4c6a4-597e-4f53-9212-95c814a8e524",
+      "type": "heart_rate",
+      "value": 70,
+      "date": "2026-03-12",
+      "time": "09:29"
+    },
+    {
+      "id": "39a34d3d-9f94-4d8b-920f-57f6bc0ce206",
+      "userId": "1",
+      "type": "workout",
+      "value": 20,
+      "date": "2026-03-11",
+      "time": "2026-03-11T00:00"
+    },
+    {
+      "id": "9278f68f-6d95-436b-b222-adb8fcf0e54b",
+      "userId": "1",
+      "type": "meal",
+      "value": 500,
+      "date": "2026-03-11",
+      "time": "12:02"
+    },
+    {
+      "id": "eeb3e389-e661-4bf0-9a5a-b6f10f69b93b",
+      "userId": "1",
+      "type": "meal",
+      "value": 110,
+      "date": "2026-03-11",
+      "time": "12:03"
+    },
+    {
+      "id": "369603c9-f5f0-4cd5-8b9d-1d4428ab63eb",
+      "userId": "1",
+      "type": "workout",
+      "value": 60,
+      "date": "2026-03-11",
+      "time": "2026-03-11T00:00"
+    },
+    {
+      "id": "a757bd32-269f-4056-a810-a11451f8729f",
+      "userId": "1",
+      "type": "meal",
+      "value": 0,
+      "date": "2026-03-11",
+      "time": "12:19:40"
+    },
+    {
+      "id": "2817dba2-d696-4f1b-b4f0-54c2b8837484",
+      "userId": "1",
+      "type": "meal",
+      "value": 500,
+      "date": "2026-03-11",
+      "time": "12:23"
+    },
+    {
+      "id": "2fa69c16-860f-4ef0-97a1-63efb2886747",
+      "userId": "1",
+      "type": "workout",
+      "value": 200,
+      "date": "2026-03-11",
+      "time": "2026-03-11T00:00"
+    },
+    {
+      "id": "ea6aaa2b-a679-4f26-a32b-b71f1ac39fe0",
+      "userId": "1",
+      "type": "blood_pressure",
+      "value": "100/70",
+      "date": "2026-03-11",
+      "time": "15:27"
+    },
+    {
+      "id": "d06e6e29-1faf-4ffd-95ad-af05ab4fb03c",
+      "userId": "1",
+      "type": "sleep",
+      "value": 4.6,
+      "date": "2026-03-11",
+      "time": "15:27"
+    },
+    {
+      "id": "28ec46cf-348c-4bf8-bd83-c1e301c36508",
+      "userId": "1",
+      "type": "workout",
+      "value": 120,
+      "date": "2026-03-11",
+      "time": "2026-03-11T00:00"
+    },
+    {
+      "id": "1b0aaafa-bf72-4bc2-ba62-5f98693e20b2",
+      "userId": "1",
+      "type": "meal",
+      "value": 500,
+      "date": "2026-03-11",
+      "time": "15:30"
+    },
+    {
+      "id": "65827c25-2a7d-4b21-a2b1-b2f4b29d9646",
+      "userId": "1",
+      "type": "meal",
+      "value": 650,
+      "date": "2026-03-11",
+      "time": "15:30"
+    },
+    {
+      "id": "9f6319ab-a2ff-4763-8767-1b7ac2d8e103",
+      "userId": "1",
+      "type": "meal",
+      "value": 1200,
+      "date": "2026-03-11",
+      "time": "18:33"
+    }
+  ],
+  "medications": [
+    {
+      "id": "med1",
+      "userId": "2",
+      "name": "Vitamin D",
+      "dosage": "1000 IU",
+      "frequency": "once daily",
+      "startDate": "2026-03-01",
+      "notes": "Morning with breakfast"
+    },
+    {
+      "id": "med2",
+      "userId": "2",
+      "name": "Omega-3",
+      "dosage": "1000mg",
+      "frequency": "twice daily",
+      "startDate": "2026-03-01",
+      "notes": "With meals"
+    },
+    {
+      "id": "med3",
+      "userId": "2",
+      "name": "Ibuprofen",
+      "dosage": "200mg",
+      "frequency": "as needed",
+      "startDate": "2026-03-05",
+      "endDate": "2026-03-10",
+      "notes": "For headache"
+    },
+    {
+      "id": "1773198246372",
+      "userId": "1",
+      "name": "aspririn",
+      "dosage": "100mg",
+      "frequency": "three times daily",
+      "startDate": "2026-03-11",
+      "endDate": "2026-03-19",
+      "notes": ""
+    },
+    {
+      "id": "1773211803092",
+      "userId": "1",
+      "name": "aspririn",
+      "dosage": "100mg",
+      "frequency": "twice daily",
+      "startDate": "2026-03-11",
+      "endDate": "2026-03-19",
+      "notes": ""
+    },
+    {
+      "id": "1773223107949",
+      "userId": "1",
+      "name": "PARACETAMOL ",
+      "dosage": "100mg",
+      "frequency": "twice daily",
+      "startDate": "2026-03-11",
+      "endDate": "2026-03-25",
+      "notes": "AFTER FOOD"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg1",
+      "fromUserId": "2",
+      "toUserId": "doc1",
+      "content": "Hi Dr. Smith, I have been feeling tired lately. Any suggestions?",
+      "timestamp": "2026-03-09T10:00:00Z",
+      "type": "text"
+    },
+    {
+      "id": "msg2",
+      "fromUserId": "doc1",
+      "toUserId": "2",
+      "content": "Hello Hariesh, let's schedule a video call to discuss your symptoms.",
+      "timestamp": "2026-03-09T10:30:00Z",
+      "type": "text"
+    },
+    {
+      "id": "msg3",
+      "fromUserId": "2",
+      "toUserId": "doc1",
+      "content": "Sure, I'm available tomorrow at 2 PM.",
+      "timestamp": "2026-03-09T11:00:00Z",
+      "type": "video_call"
+    },
+    {
+      "id": "1773115296758",
+      "fromUserId": "10c4c6a4-597e-4f53-9212-95c814a8e524",
+      "toUserId": "doc2",
+      "content": "doctor i have mild chest pain and inclined heartbeat\n",
+      "timestamp": "2026-03-10T04:01:36.758Z",
+      "type": "video_call"
+    },
+    {
+      "id": "1773210708977",
+      "fromUserId": "1",
+      "toUserId": "doc2",
+      "content": "call me ",
+      "timestamp": "2026-03-11T06:31:48.977Z",
+      "type": "video_call"
+    },
+    {
+      "id": "1773211814494",
+      "fromUserId": "1",
+      "toUserId": "doc3",
+      "content": "call me doctor",
+      "timestamp": "2026-03-11T06:50:14.495Z",
+      "type": "video_call"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "rec1",
+      "name": "Grilled Chicken Salad",
+      "ingredients": [
+        "200g chicken breast",
+        "mixed greens",
+        "cherry tomatoes",
+        "cucumber",
+        "olive oil",
+        "lemon juice"
+      ],
+      "instructions": "Grill chicken, chop vegetables, mix with dressing.",
+      "calories": 350,
+      "protein": 40,
+      "carbs": 15,
+      "fats": 18,
+      "tags": [
+        "healthy",
+        "high-protein",
+        "low-carb"
+      ]
+    },
+    {
+      "id": "rec2",
+      "name": "Quinoa Bowl",
+      "ingredients": [
+        "100g quinoa",
+        "avocado",
+        "black beans",
+        "corn",
+        "lime",
+        "cilantro"
+      ],
+      "instructions": "Cook quinoa, mix with ingredients, dress with lime.",
+      "calories": 450,
+      "protein": 15,
+      "carbs": 60,
+      "fats": 20,
+      "tags": [
+        "vegan",
+        "gluten-free",
+        "fiber-rich"
+      ]
+    },
+    {
+      "id": "rec3",
+      "name": "Protein Smoothie",
+      "ingredients": [
+        "1 banana",
+        "1 cup spinach",
+        "1 scoop protein powder",
+        "1 cup almond milk",
+        "handful of berries"
+      ],
+      "instructions": "Blend all ingredients until smooth.",
+      "calories": 300,
+      "protein": 25,
+      "carbs": 35,
+      "fats": 8,
+      "tags": [
+        "quick",
+        "post-workout",
+        "vegetarian"
+      ]
+    }
+  ]
+}
